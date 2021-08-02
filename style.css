@@ -1,8 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: 2rem;
+    margin: 2rem 2rem;
+}
+
 .squareContainer{
    display: grid;
    justify-content: center;
+   width: 500px; 
+   border: 1px solid black;
 }
 
 .squareDiv{
-    background-color: gray;
+    background-color: lightgray;
+}
+
+.colored{
+    background-color: black;
 }
