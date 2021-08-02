@@ -1,0 +1,8 @@
+.squareContainer{
+   display: grid;
+   justify-content: center;
+}
+
+.squareDiv{
+    background-color: gray;
+}
